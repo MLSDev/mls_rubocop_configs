@@ -27,6 +27,14 @@ AllCops:
 
 Dont forget to keep UR `RUBY.VERSION` and `RAILS.VERSION` up-to-date while updating the rubocop.
 
+`vX.X.X` in config links suppose to be version of configs to use latest stable one. Or if U'r brave enough - U can use it directly from `master` branch like 
+
+```yml
+ingerit_from:
+  - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/master/.rubocop_general.yml
+  - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/master/.rubocop_rspec.yml
+```
+
 ## The things U should know
 
 `RuboCop` got used to update their configs so often, please, report any issue U faced with. 
