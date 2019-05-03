@@ -35,6 +35,14 @@ ingerit_from:
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/master/.rubocop_rspec.yml
 ```
 
+If dont want to keep downloads in your project, just add: 
+
+```bash
+.rubocop-https*
+```
+
+to `.gitignore` file.
+
 ## The things U should know
 
 `RuboCop` got used to update their configs so often, please, report any issue U faced with. 
