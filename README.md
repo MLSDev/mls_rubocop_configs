@@ -12,7 +12,7 @@ The example of `.rubocop.yml` file, the we consider to use:
 require: rubocop-rspec
 require: rubocop-performance
 
-ingerit_from:
+inherit_from:
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/vX.X.X/.rubocop_general.yml
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/vX.X.X/.rubocop_rspec.yml
 
@@ -30,7 +30,7 @@ Dont forget to keep UR `RUBY.VERSION` and `RAILS.VERSION` up-to-date while updat
 `vX.X.X` in config links suppose to be version of configs to use latest stable one. Or if U'r brave enough - U can use it directly from `master` branch like 
 
 ```yml
-ingerit_from:
+inherit_from:
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/master/.rubocop_general.yml
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/master/.rubocop_rspec.yml
 ```
