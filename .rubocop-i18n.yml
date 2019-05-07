@@ -1,0 +1,8 @@
+GetText:
+  Enabled: false
+
+RailsI18n:
+  Enabled: true
+  Exclude:
+    - 'spec/**/*'
+    - '*docs*'
