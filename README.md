@@ -27,6 +27,7 @@ AllCops:
   Exclude:
     - 'db/**/*'
     - 'lib/apidocs/**/*'
+    - 'bin/**/*'
 
 ```
 
