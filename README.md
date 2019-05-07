@@ -9,10 +9,15 @@ Check out this guys for more details about RuboCop [configuration](https://ruboc
 The example of `.rubocop.yml` file, the we consider to use:
 
 ```yml
-require: rubocop-rspec
-require: rubocop-performance
+require:
+  - rubocop/cop/internal_affairs
+  - rubocop-performance
+  - rubocop-rspec
+  - rubocop-thread_safety
+  - rubocop-i18n
 
 inherit_from:
+  - .rubocop_todo.yml # optional
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/vX.X.X/.rubocop_general.yml
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/vX.X.X/.rubocop_rspec.yml
 
