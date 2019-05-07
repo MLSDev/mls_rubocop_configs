@@ -35,6 +35,7 @@ require:
 
 inherit_from:
   - .rubocop_todo.yml # optional
+  - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/vX.X.X/.rubocop-i18n.yml
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/vX.X.X/.rubocop_general.yml
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/vX.X.X/.rubocop_rspec.yml
 
@@ -54,6 +55,7 @@ Dont forget to keep UR `RUBY.VERSION` and `RAILS.VERSION` up-to-date while updat
 
 ```yml
 inherit_from:
+  - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/master/.rubocop-i18n.yml
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/master/.rubocop_general.yml
   - https://raw.githubusercontent.com/MLSDev/mls_rubocop_configs/master/.rubocop_rspec.yml
 ```
