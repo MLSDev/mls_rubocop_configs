@@ -6,6 +6,23 @@ Check out this guys for more details about RuboCop [configuration](https://ruboc
 
 ## HOW TO
 
+`Gemfile`:
+
+```yml
+#
+# TECH / LINT
+#
+group :development do
+  gem 'rubocop',               require: false
+  gem 'rubocop-rspec',         require: false
+  gem 'rubocop-performance',   require: false
+  gem 'rubocop-thread_safety', require: false
+  gem 'rubocop-performance',   require: false
+  gem 'rubocop-i18n',          require: false
+end
+
+```
+
 The example of `.rubocop.yml` file, the we consider to use:
 
 ```yml
