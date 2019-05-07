@@ -5,4 +5,4 @@ RailsI18n:
   Enabled: true
   Exclude:
     - 'spec/**/*'
-    - '*docs*'
+    - !ruby/regexp /^.*docs.*$/
