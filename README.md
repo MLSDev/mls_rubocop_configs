@@ -8,7 +8,7 @@ Check out this guys for more details about RuboCop [configuration](https://ruboc
 
 `Gemfile`:
 
-```yml
+```ruby
 #
 # TECH / LINT
 #
