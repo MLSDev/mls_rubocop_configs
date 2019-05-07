@@ -14,10 +14,10 @@ Check out this guys for more details about RuboCop [configuration](https://ruboc
 #
 group :development do
   gem 'rubocop',               require: false
+  gem 'rubocop-i18n',          require: false
   gem 'rubocop-rspec',         require: false
   gem 'rubocop-performance',   require: false
   gem 'rubocop-thread_safety', require: false
-  gem 'rubocop-i18n',          require: false
 end
 
 ```
